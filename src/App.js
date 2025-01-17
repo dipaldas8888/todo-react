@@ -29,6 +29,7 @@ class App extends Component {
 
     // Add item if user input in not empty
     addItem() {
+        console.log("add item called")
         if (this.state.userInput !== "") {
             const userInput = {
                 // Add a random id which is used to delete
